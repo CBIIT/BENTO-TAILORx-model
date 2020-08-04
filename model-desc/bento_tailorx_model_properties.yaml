@@ -1967,7 +1967,7 @@ PropDefinitions:
     Type:
       units:
        - day
-      value_type: string
+      value_type: integer
     Req: false
     Private: false
 #property of demographic_data
