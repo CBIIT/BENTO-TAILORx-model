@@ -634,7 +634,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
       - "Not Allowed To Collect"
-    Req: true
+    Req: false
     Private: false
 #property of sample
   sample_type:
@@ -691,7 +691,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
       - "Not Allowed To Collect"
-    Req: true
+    Req: false
     Private: false
 #property of sample
   composition:
@@ -1159,7 +1159,7 @@ PropDefinitions:
       - "Unknown"
       - "Not Reported"
       - "Not Allowed To Collect"
-    Req: true
+    Req: false
     Private: false
 #property of sample
   sample_laterality:
