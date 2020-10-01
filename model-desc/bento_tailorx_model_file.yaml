@@ -715,6 +715,12 @@ Relationships:
       - Src: stratification_factor
         Dst: study_subject
     Props: null
+  aliquot_of_sample:
+    Mul: many_to_one
+    Ends:
+      - Src: aliquot
+        Dst: sample
+    Props: null
   tp_of_diagnosis:
     Mul: many_to_one
     Ends:
