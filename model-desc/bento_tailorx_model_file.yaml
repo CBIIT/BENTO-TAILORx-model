@@ -727,3 +727,9 @@ Relationships:
       - Src: therapeutic_procedure
         Dst: diagnosis
     Props: null
+file_of_aliquot:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: aliquot
+    Props: null
