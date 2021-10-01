@@ -1,3 +1,6 @@
+![Build Status](https://github.com/CBIIT/BENTO-TAILORx-model/actions/workflows/model-test-and-deploy.yml/badge.svg)
+
+
 BENTO-TAILORx Data Model
 ====
 
