@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/BENTO-TAILORx-model
-commit 7bd50c8
+commit a0ad898
 node	property	value_or_TYPE
 aliquot	aliquot_concentration	NUMBER (milligram per milliliter)
 aliquot	aliquot_id	STRING
