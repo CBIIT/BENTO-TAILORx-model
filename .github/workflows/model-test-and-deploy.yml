@@ -6,6 +6,28 @@ on:
   pull_request:
     branches:
       - master
+      - develop
+
+jobs:
+  validate-and-build:
+    uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v2.1.2
+    permissions:
+      packages: read
+      contents: write
+    with:
+      model_files: |
+        bento_tailorx_model_file.yaml bento_tailorx_model_properties.yaml 
+      model_prefix: bento-tailorx-model
+      event_name: ${{ github.event_name }}
+
+name: Model Validate and Build
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   validate-and-build:
