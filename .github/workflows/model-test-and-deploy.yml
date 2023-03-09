@@ -10,10 +10,10 @@ on:
 
 jobs:
   validate-and-build:
+    permissions: 
+      packages: read 
+      contents: write 
     uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v2.1.2
-    permissions:
-      packages: read
-      contents: write
     with:
       model_files: |
         bento_tailorx_model_file.yaml bento_tailorx_model_properties.yaml 
