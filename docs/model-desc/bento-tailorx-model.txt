@@ -1,5 +1,5 @@
 repo https://github.com/CBIIT/BENTO-TAILORx-model
-commit e270005
+commit 3b0e211
 node	property	value_or_TYPE
 aliquot	aliquot_concentration	NUMBER (milligram per milliliter)
 aliquot	aliquot_id	STRING
@@ -4199,6 +4199,7 @@ family_medical_history	relative_with_cancer_history	not reported
 family_medical_history	relative_with_cancer_history	unknown
 family_medical_history	relative_with_cancer_history	yes
 family_medical_history	relatives_with_cancer_history_count	INTEGER
+file	acl	STRING
 file	file_description	STRING
 file	file_format	STRING
 file	file_id	STRING
@@ -7116,6 +7117,7 @@ tp_of_diagnosis	therapeutic_procedure	diagnosis	NA	NA
 
 property	description
 a260_a280_ratio	Numeric value that represents the sample ratio of nucleic acid absorbance at 260 nm and 280 nm, used to determine a measure of DNA purity.
+acl	Access control list for file access authorization.
 acquisition_type	The modes of acquisition used in study- data dependent acquisition (DDA), data independent acquisition (DIA). Relevant for proteomic studies.
 adverse_event	Text that represents the Common Terminology Criteria for Adverse Events low level term name for an adverse event.
 age_at_diagnosis	Age at the time of diagnosis expressed in number of days since birth.

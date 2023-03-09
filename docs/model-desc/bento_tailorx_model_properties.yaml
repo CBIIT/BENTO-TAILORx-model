@@ -1868,6 +1868,13 @@ PropDefinitions:
     Req: true
     Private: false
 #property of file
+  acl:
+    Desc: Access control list for file access authorization.
+    Src: None
+    Type: string
+    Req: true
+    Private: false
+#property of file
   file_description:
     Desc: Optional description of the file and its content.
     Src: None

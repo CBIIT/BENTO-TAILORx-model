@@ -230,6 +230,7 @@ Nodes:
       - file_status
       - file_type
       - md5sum
+      - acl
   demographic_data:
     Props:
       - demographic_data_id
